@@ -1,0 +1,128 @@
+html{
+    font-family: Arial, sans-serif;
+}
+body{
+    margin:0px;
+    padding:0px;
+}
+.bkcolor{
+    width: 1280px;
+    height: 1653px;
+    background-color: #2356E1
+}
+.main_body{
+    margin: 0px 46px 0px 46px; 
+    background-color: #5493E8;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.top_right{
+    display: flex;
+    align-items: center;
+}
+.top_right_ul{
+    display: flex;
+    font-size: 35px;
+    font-weight:bold;
+}
+.top_right_ul_li{
+    list-style: none;
+    margin:10px;
+}
+.top_right_ul_li_a{
+    text-decoration: none;
+    color: white;
+}
+.top_right_ul_li_a:hover{
+    color: #d0d5dc;
+}
+.top_right_ul_li_a:active{
+    color: #b0b4b9;
+}
+.main{
+    display: flex;
+    margin-bottom:240px;
+    border: black 5px solid;
+}
+.main_img{
+    width: 882px;
+    height: 580px;
+    
+}
+.main_text_area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 306px;
+    height: 580px;
+    margin: 0px;
+    background-color: white;
+    border-left: black 5px solid;
+    font-size: 35px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+    border: black 5px solid;
+    background-color: white;
+}
+.bottom_left{
+    width: 558px;
+    border-right: black 5px solid;
+    background-color: #d0d5dc;
+}
+.bottom_left_img{
+    width: 558px;
+    height: 360px;
+    margin:0px;
+    border-bottom: black 3px solid;
+}
+
+
+.bottom_right{
+    width: 558px;
+    border-left: black 5px solid;
+    background-color: #d0d5dc;
+}
+.bottom_right_img{
+    width: 558px;
+    height: 360px;
+    margin:0px;
+    border-bottom: black 3px solid;
+}
+.bottom_button{
+    height: 80px;
+    width: 240px;
+    margin: 80px 159px 80px 159px;
+    border: black 1px solid;
+    border-right: black 5px solid;
+    border-bottom: black 5px solid;
+    background-color: #efed4d;
+    font-size: 35px;
+    font-weight:bold;
+}
+.bottom_button:hover{
+    background-color: #d9cf30;
+    cursor: pointer;
+}
+.bottom_button:active{
+    background-color: #a2990b;
+}
+.foot_area{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 83px;
+    border-right: black 5px solid;
+    border-left: black 5px solid;
+    padding-left: 50px;
+}
+.foot_text{
+    margin:15px 0px 0px 0px;
+    font-weight:bold;
+}
